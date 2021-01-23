@@ -6,6 +6,9 @@
  * @Description: 
  */
 
+#ifndef _AX58100_CONFIG_H_
+#define _AX58100_CONFIG_H_
+
 #include "main.h"
 #include "ecat_def.h"
 
@@ -79,3 +82,6 @@ typedef struct{
     UINT8             RxBuf[HW_SPI_MAX_XFER_BUF_SIZE];	
 } HW_SPI_OBJECT;
 
+
+
+#endif //_AX58100_CONFIG_H_
